@@ -62,8 +62,7 @@ if fetch_button:
 
     except Exception as e:
         st.write(f"Error occurred while fetching article: {e}")
-
-x   
+ 
 # HuggingFace API KEY input
 API_KEY = st.text_input("Enter your HuggingFace API key", type="password")
 
